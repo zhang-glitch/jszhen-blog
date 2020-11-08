@@ -1,0 +1,279 @@
+.detail-background {
+  height: 18rem;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 0.3%;
+}
+
+.detail-background img {
+  height: 100%;
+  width: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  animation: fadein 1s;
+}
+
+.title-theme {
+  width: 100%;
+  /* margin-left: 7.5rem; */
+  /* margin-left: calc(100vh - 36rem) !important; */
+  margin-left: 5%;
+  margin-top: 2rem;
+}
+
+.title-theme h1 {
+  color: #252525;
+  font-size: 2.5rem;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.title-theme .bottom-item ul {
+  display: flex;
+  margin-bottom: 2rem;
+  /* margin-left: 1rem; */
+}
+
+.title-theme .bottom-item ul li {
+  border-right: 0.15rem solid #eee;
+  margin-right: 1.4rem;
+  padding-right: 1.5rem;
+}
+
+.title-theme .bottom-item ul li:last-child {
+  border: 0;
+}
+
+.title-theme .bottom-item ul li span {
+  padding-right: 0.3rem;
+}
+
+.star-share {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  margin-left: -5rem;
+  z-index: 999;
+  border-radius: 1rem;
+}
+
+.star-share .share-star-icon {
+  color: #fff !important;
+}
+
+.star-share .top-star {
+  margin-bottom: 1rem;
+  background: #cccccc;
+  border-radius: 0.5rem;
+  height: 28px;
+  width: 28px;
+  text-align: center;
+  padding: 0.1rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.star-share .bottom-share {
+  background: #cccccc;
+  border-radius: 0.5rem;
+  height: 28px;
+  width: 28px;
+  text-align: center;
+  padding: 0.1rem;
+  cursor: pointer;
+}
+
+.share-star-icon span {
+  margin-left: 0px;
+}
+
+.qq-color span {
+  font-size: 1.5rem;
+  color: "#87e8de" !important;
+}
+
+.weibo-color span {
+  font-size: 1.5rem;
+  color: "#ffbad9" !important;
+}
+
+.zhihu-color span {
+  font-size: 1.5rem;
+  color: "#91d5ff" !important;
+}
+
+.ant-popover-title {
+  background: #1e1e1e !important;
+  color: #fff !important;
+  opacity: 0.8 !important;
+  border-radius: 0.5rem !important;
+  text-align: center;
+}
+
+/* markdown样式 */
+/* .detailed-content {
+  padding: 1.3rem;
+  font-size: 1rem;
+}
+
+.detailed-content ul {
+  word-break: break-word;
+  margin: 0 0 30px 30px;
+}
+pre {
+  display: block;
+  background-color: #f3f3f3;
+  padding: 0.5rem !important;
+  overflow-y: auto;
+  font-weight: 300;
+  font-family: Menlo, monospace;
+  border-radius: 0.3rem;
+}
+pre {
+  background-color: #283646 !important;
+}
+pre > code {
+  border: 0px !important;
+  background-color: #283646 !important;
+  color: #fff;
+}
+code {
+  display: inline-block;
+  background-color: #f3f3f3;
+  border: 1px solid #fdb9cc;
+  border-radius: 3px;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #4f4f4f;
+  margin: 0px 3px;
+}
+
+.title-anchor {
+  color: #888 !important;
+  padding: 4px !important;
+  margin: 0rem !important;
+  height: auto !important;
+  line-height: 1.2rem !important;
+  font-size: 0.7rem !important;
+  border-bottom: 1px dashed #eee;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.active {
+  color: rgb(30, 144, 255) !important;
+}
+.nav-title {
+  text-align: center;
+  color: #888;
+  border-bottom: 1px solid rgb(30, 144, 255);
+}
+.article-menu {
+  font-size: 12px;
+}
+iframe {
+  height: 34rem;
+}
+.detailed-content img {
+  width: 100%;
+  border: 1px solid #f3f3f3;
+}
+.title-level3 {
+  display: none !important;
+}
+.ant-anchor-link-title {
+  font-size: 12px !important;
+}
+.ant-anchor-wrapper {
+  padding: 5px !important;
+} */
+
+/* 选项 */
+
+.bottom-item ul li:nth-child(1) span {
+  color: rgb(197, 97, 84);
+}
+
+.bottom-item ul li:nth-child(2) span {
+  color: #2dc6f5;
+}
+
+.bottom-item ul li:nth-child(3) span {
+  color: rgb(84, 216, 57);
+}
+
+.bottom-item ul li:nth-child(4) span {
+  color: rgb(240, 142, 211);
+}
+
+.catalogue {
+  font-size: 1.5rem;
+  margin-left: -1rem;
+  color: #1296db;
+}
+
+.catalogue span {
+  margin-left: 1rem;
+}
+
+.underline {
+  border-color: #eee;
+  margin: 50px 0 25px;
+}
+
+.collect-money {
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+}
+
+.collect-money .inner-item {
+  width: 20rem;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(119, 119, 119);
+  margin-bottom: 1rem;
+  letter-spacing: 0.2em;
+}
+
+.collect-money .inner-item p {
+  line-height: 2rem;
+}
+
+.collect-money .inner-item .btn-money {
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* 目录 */
+.ant-anchor-link {
+  padding-left: 1rem;
+  height: 36px;
+  line-height: 22px;
+}
+
+.ant-anchor .ant-anchor-link-active {
+  background: #e6f7ff;
+}
+
+.ant-anchor-ink-ball {
+  height: 36px;
+  width: 2px;
+  /* 这里的想法有点意思，不枉费我找了一上午的方法 */
+  transform: translateY(-13px);
+  /* transition-duration: 100ms; */
+  border: none;
+  border-radius: 2px;
+  background: #1890ff !important;
+}
+
+.ant-anchor-link-title {
+  font-size: 1rem !important;
+}
+
+.ant-anchor-wrapper {
+  max-height: calc(100vh - 290px) !important;
+}

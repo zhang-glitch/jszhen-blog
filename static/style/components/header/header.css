@@ -1,0 +1,113 @@
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  height: 3.2rem;
+  /* background: #1e1e1e;
+  opacity: .8; */
+  background-color: #fff;
+  opacity: 0.9;
+  padding: 0.4rem;
+  overflow: hidden;
+}
+
+.header-logo h1 a {
+  display: block;
+  margin-top: -4px;
+  font-size: 0;
+}
+.header-logo h1 a .top-blog {
+  margin-top: -0.5.5rem;
+  margin-right: -0.2rem;
+  width: 2.1rem;
+  height: 2.1rem;
+}
+.header-logo h1 a .bottom-blog {
+  margin-bottom: -1rem;
+  margin-right: -0.2rem;
+  width: 1.6rem;
+  height: 2.6rem;
+}
+
+.header-txt {
+  position: absolute;
+  left: 3.2rem;
+  top: 1.6rem;
+  font-size: 0.6rem;
+  /* color: #fff; */
+  color: #000000;
+  letter-spacing: 0.125rem;
+  padding-left: 0.6rem;
+  vertical-align: bottom;
+  font-weight: bold;
+}
+
+.ant-menu {
+  height: 3.2rem;
+  line-height: 3.2rem;
+  margin-top: -0.3rem;
+  /* background: #1e1e1e; */
+  background-color: #fff;
+  transition: 100ms;
+  font-weight: bold;
+  text-align: center;
+  /* margin-right: -2rem; */
+  margin-right: 1rem;
+}
+
+.ant-menu li {
+  padding: 0 3%;
+}
+
+.menu-item a {
+  color: #fff;
+}
+
+.ant-menu-horizontal > .ant-menu-item {
+  top: -1px !important;
+}
+
+.menu-item:hover {
+  transition: 2s;
+  background: #5e5d5d !important;
+  opacity: 0.9;
+}
+
+.menu-item:hover a {
+  color: #ecaaaa !important;
+}
+
+.login {
+  position: absolute;
+  right: 2rem;
+  /* right: 0; */
+  z-index: 999;
+  top: -0.4rem;
+  padding: 0 1.5rem;
+  height: 3.2rem;
+  line-height: 3.2rem;
+  background: #c4c4c4;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.login a {
+  color: #000000 !important;
+  font-weight: 800;
+}
+
+.login-icon {
+  color: #000000 !important;
+  margin-right: 0.4rem;
+  font-size: 1rem;
+  font-weight: 800 !important;
+}
+
+/* 设置折叠时导航的样式 */
+#\31 -overflowed-indicator\$Menu {
+  background: #1e1e1e;
+  opacity: 0.8;
+  height: auto;
+}

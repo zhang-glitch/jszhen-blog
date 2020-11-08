@@ -1,0 +1,12 @@
+
+.sentence img {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.sentence p {
+  margin-top: .5rem;
+  text-indent: 2em;
+  font-size: .875rem;
+  margin-bottom: -.8rem
+}

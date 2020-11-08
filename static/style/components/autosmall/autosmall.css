@@ -1,0 +1,17 @@
+.select {
+  color: #1ab8f1;
+  font-weight: 800;
+  height: 3.2rem;
+  line-height: 3.2rem;
+  margin-top: -.3rem;
+}
+
+.drawer-style { 
+  font-size: 800;
+  letter-spacing: .1rem;
+}
+
+.select-menu-item {
+  margin-left: -2rem;
+  padding: 0;
+}

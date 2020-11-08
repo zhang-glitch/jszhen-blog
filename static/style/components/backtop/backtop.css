@@ -1,0 +1,15 @@
+.back-top {
+  width: 3.125rem;
+  height: 3.125rem;
+  right: 50px;
+  font-size: 2rem !important;
+  color: rgb(233, 65, 65);
+  border: 1px solid rgba(233, 65, 65, 0.2);
+  border-radius: 50%;
+}
+
+.anticon {
+  margin-left: .5rem;
+}
+
+

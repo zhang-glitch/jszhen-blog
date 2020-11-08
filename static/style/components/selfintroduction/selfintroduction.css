@@ -1,0 +1,120 @@
+.head-portrait {
+  /* width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: .5rem; */
+
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-image: url("/static/style/components/selfintroduction/head_portrait.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100% ;
+  animation: avatar 2s linear both infinite;
+  margin-bottom: .5rem;
+}
+
+@keyframes avatar {
+  0% {
+    box-shadow: 0 0 1px white, 0 0 5px white, 0 0 10px white, 0 0 20px #e7aeae,
+      0 0 5px #1e1e1e, 0 0 11px pink;
+  }
+  100% {
+    box-shadow: 0 0 5px white, 0 0 10px #e7aeae, 0 0 15px #0cb4f1, 0 0 8px #1e1e1e,
+      0 0 10px #0cb4f1, 0 0 12px #e7aeae;
+  }
+}
+
+/* 播放背景 */
+.btn-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 35px;
+  background-color: #e7aeae;
+  background: url("/static/style/components/selfintroduction/btn-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  animation: controlbg 3s linear infinite;
+}
+
+@keyframes controlbg {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* 播放按钮 */
+.play {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url("/static/style/components/selfintroduction/control.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% 90%;
+  transition: 0.5s;
+}
+
+.self-introduction h3 {
+  /* position: absolute; */
+  /* left: 50%; */
+  /* transform: translate(-50%); */
+  font-size: 1rem;
+  color: #1890ff;
+  text-align: center;
+}
+
+.self-introduction p {
+  /* margin-top: 2.5rem;
+  margin-left: .4rem; */
+  text-align: center;
+  letter-spacing: .1rem;
+}
+
+.account{
+  background-color: #999;
+  margin-left: 1rem;
+  margin-right: 1rem;
+   
+}
+
+.social{
+  font-size:.8rem;
+  color: #999;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+.social .goto-github span{
+  color: #fff !important;
+  margin-left: 0;
+}
+
+.ant-popover-inner-content {
+  background: #1e1e1e !important; 
+  opacity: .8;
+  color: #fff;
+  border-radius: .5rem;
+}
+
+.tags {
+  text-align: center;
+}
+
+.tags > span {
+  margin-top: 0.5rem;
+}

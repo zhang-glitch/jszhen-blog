@@ -1,0 +1,25 @@
+
+
+.school > .ant-carousel div img {
+  height: 11rem;
+}
+.detailedIntroduction {
+  margin-top: .5rem;
+  margin-bottom: -1rem;
+}
+
+
+.ant-carousel .slick-dots li button {
+  /* background: #27afd8; */
+  height: .3rem;
+  border-radius: 2px;
+}
+
+.slick-dots li  button {
+  background: #dfc7c7;
+  opacity: .2;
+}
+.slick-active button {
+  background: #dfc7c7 !important;
+  opacity: .8;
+}

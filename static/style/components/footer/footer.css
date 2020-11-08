@@ -1,0 +1,60 @@
+
+.footer {
+  width: 100%;
+  background-color: #000;
+  margin-top: 10rem;
+}
+
+.top-logo{
+  width: 3.75rem;
+}
+
+.bottom-logo {
+  width: 5.5rem;
+  margin-left: 2rem;
+  margin-top: 1.8rem;
+}
+
+.anticon-heart{
+  color: red;
+  animation: rotate1 .5s linear infinite;
+}
+
+.right-memu  div{
+  font-size: 1rem;
+  text-align: center;
+  width: 80%;
+  padding: 1rem;
+  color: #eee;
+}
+
+.right-memu p {
+  color: #eee;
+  text-align: center;
+  width: 80%;
+  letter-spacing: 1rem;
+}
+
+
+@keyframes rotate1 {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(2px);
+  }
+
+  50% {
+    transform: translateY(4px) scale(1.1, 0.9);
+
+  }
+
+  75% {
+    ransform: translateY(2px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

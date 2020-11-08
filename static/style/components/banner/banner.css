@@ -1,0 +1,93 @@
+.mainBanner {
+  position: relative;
+  text-align: center;
+  height: 75% !important;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  /* margin: 1rem 1rem; */
+  margin-top: 1rem;
+  margin-bottom: -4rem;
+  perspective: 800px;
+  margin-left: 2%;
+}
+
+@media all and (min-width: 375px) and (max-width: 768px) {
+  .mainBanner {
+    margin-top: 2.3rem;
+  }
+}
+
+.mainBanner > .ant-carousel {
+  height: 75%;
+}
+
+.mainBanner img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.left-arrows {
+  position: absolute;
+  z-index: 999;
+  bottom: 0.3rem;
+  left: 0;
+  border: 1px solid#dd7171;
+  color: #dd7171;
+  width: 2rem;
+  height: 4rem;
+  cursor: pointer;
+  line-height: 4rem;
+  padding-right: 0.5rem;
+  font-size: 1rem;
+  text-align: center !important;
+  background: #dfc7c7;
+  opacity: 0.2;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.left-arrows:hover {
+  opacity: 0.8;
+}
+
+.right-arrows {
+  position: absolute;
+  z-index: 999;
+  bottom: 0.3rem;
+  right: 0;
+  border: 1px solid#dd7171;
+  width: 2rem;
+  height: 4rem;
+  color: #dd7171;
+  cursor: pointer;
+  line-height: 4rem;
+  text-align: center;
+  padding-left: 0.1rem;
+  font-size: 1rem;
+  background: #dfc7c7;
+  opacity: 0.2;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.right-arrows:hover {
+  opacity: 0.8;
+}
+
+/* 设置遮罩 */
+.banner-mark {
+  /* position: relative; */
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1e1e1e;
+  opacity: 0;
+}
+
+.mainBanner .ant-carousel:hover .mask {
+  opacity: 0.04;
+}
